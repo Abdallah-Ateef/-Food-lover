@@ -239,5 +239,25 @@ header *{
   right: 0;
 }
 
-/* end section offers*/
+/* end section menu*/
 /* start section daytime */
+
+.daytime{
+  background-image: url("../img/daytime_bg.jpeg");
+  background-repeat: no-repeat;
+}
+
+.daytime-items{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 0 6rem;
+}
+
+.daytime-item h3{
+  padding:1rem 0;
+  font-size: 25px;
+  color: #383848;
+}
+
+/* end section daytime */

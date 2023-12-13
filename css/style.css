@@ -99,3 +99,52 @@ header *{
   background-color:#e4b95b;
 }
 
+/* End header section */
+/* Start section About */
+.container{
+  width:1200px ;
+  margin: 100px auto;
+}
+
+.about-title{
+  text-align: center;
+}
+
+.about-title h2{
+  font-size: 35px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.about-content{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+
+.about-content .left{
+  margin-right: 60px;
+}
+
+.about-content .left p{
+  line-height: 2;
+  padding:10px;
+}
+
+.about-content .left button{
+  margin-top: 15px;
+  background-color: #383848;
+  color:white;
+}
+
+.about-content .left button:hover{
+  background-color: #e4b95b;
+  cursor: pointer;
+}
+
+.about-content .right img{
+  width: 500px;
+}
+
+/* end section about */
+

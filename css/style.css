@@ -103,8 +103,12 @@ header *{
 /* Start section About */
 .container{
   width:1200px ;
-  margin: 100px auto;
+  margin:auto;
   
+}
+
+.about,.offers,.menu,.daytime{
+  padding:6rem 0;
 }
 
 .about-title{
@@ -185,8 +189,55 @@ header *{
   font-size: 14px;
 }
 
-.offers-items span{
-  color: #e4b95b;;
-}
 
 /* end section offers */
+/* start section menu */
+
+.menu{
+  background: #f4f2ed;
+}
+
+.menu-title{
+  text-align: center;
+}
+
+.menu-title h2{
+  font-size: 30px ;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.menu-items{
+  display: flex;
+  margin: 5rem auto;
+}
+
+.menu-item{
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+
+.menu-item img{
+  width:80px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.menu-item h3{
+  margin-right: 4rem;
+  color: #383848;
+  border-bottom:1px dashed #c2bdbd;
+  padding-bottom: 10px;
+  font-size: 20px;
+  position:relative;
+}
+
+.menu-item h3 span{
+  position:absolute;
+  top: 0;
+  right: 0;
+}
+
+/* end section offers*/
+/* start section daytime */

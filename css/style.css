@@ -104,6 +104,7 @@ header *{
 .container{
   width:1200px ;
   margin: 100px auto;
+  
 }
 
 .about-title{
@@ -147,4 +148,45 @@ header *{
 }
 
 /* end section about */
+/* start section offers */
+ .offers{
+  background-image: url("../img/offer-background.jpg");
+  padding:50px 0;
+}
+.offers-title{
+  text-align: center;
+}
 
+.offers-title h2{
+  font-size: 30px ;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color:#e4b95b
+}
+
+.offers-title p ,.offers-items h3,.offers-items p{
+  color:#fff;
+}
+
+
+.offers-items {
+  display: flex;
+  text-align: center;
+  margin: 60px 0;
+}
+
+.offers-items img{
+  width:200px;
+  margin-bottom: 10px;
+}
+
+.offers-items p{
+  margin: 10px;
+  font-size: 14px;
+}
+
+.offers-items span{
+  color: #e4b95b;;
+}
+
+/* end section offers */

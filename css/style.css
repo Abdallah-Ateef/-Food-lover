@@ -8,6 +8,10 @@
 
   }
 
+  html{
+    scroll-behavior: smooth;
+  }
+
   body{
     font-family: 'Quicksand', sans-serif;
   }
@@ -355,3 +359,22 @@ textarea{
   background-color:#e4b95b;
   color: #383848;;
 }
+
+/* end section content */
+/* Start section footer */
+
+.footer{
+  display: flex;
+  justify-content: center;
+  padding:10px;
+  background-color: #383848;
+  color: #fff;
+}
+
+.footer :first-child{
+  padding-right: 10px;
+  border-right: 1px solid #fff;
+  margin-right: 10px;
+}
+
+/* end section footer */

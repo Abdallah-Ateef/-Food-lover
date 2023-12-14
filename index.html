@@ -6,6 +6,7 @@
     <title>Food lover</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    
 </head>
 <body>
     <!--start section header-->
@@ -14,10 +15,10 @@
             <img src="img/logo.png" src="food lover logo">
             <nav>
                 <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Menu</a>
-                <a href="#">Gallery</a>
-                <a href="#">Contact</a>
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
             </nav>
         </div>
         <div class="content">
@@ -31,7 +32,7 @@
     
     <main>
         <!--Start section About-->
-        <section class="about">
+        <section class="about" id="about">
             <div class="container">
                 <div class="about-title">
                     <h2>The Food Lover history</h2>
@@ -83,7 +84,7 @@
         </section>
         <!--End section offers-->
         <!-- Start section menu-->
-        <section class="menu">
+        <section class="menu" id="menu">
             <div class="container">
                 <div class="menu-title">
                     <h2>Our Special Menu</h2>
@@ -213,7 +214,7 @@
         </section>
         <!--End section daytime-->
         <!--Start section Gallery-->
-        <section class="gallery">
+        <section class="gallery" id="gallery">
             <div class="container">
                 <div class="gallery-title"><h2> Our Food Gallery</h2> </div>
                 <div class="gallery-items">
@@ -229,7 +230,7 @@
         </section>
         <!--End section Gallery-->
         <!--Start section contact-->
-        <section class="contact">
+        <section class="contact" id="contact">
             <div class="container">
                 <div class="contact-content">
                     <div class="contact-info">
@@ -267,7 +268,7 @@
                             <input type="email" placeholder="Email Address">
                             <input type="Subject" placeholder="Subject">
                             <textarea>Message</textarea>
-                            <button class="bttn ">Send Message</button>
+                            <button class="bttn cont-submit">Send Message</button>
 
                         </form>
                     </div>
@@ -276,6 +277,13 @@
         </section>
         <!--End section contact-->
     </main>
+    <footer class="footer">
+        <p>Copyright © 2023 All rights reserved  </p>
+        <p>made by ......</p>
+
+    </footer>
+
+    
     
     
 </body>
